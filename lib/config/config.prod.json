@@ -1,0 +1,24 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "mongoose": {
+        "connectionURI": "mongodb://ds143330.mlab.com:43330/mobilization_db",
+        "options": {
+            "user": "root",
+            "pass": "12345",
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1,
+                    "connectTimeoutMS": 30000
+                }
+            },
+            "replset": {
+                "socketOptions": {
+                    "keepAlive": 1,
+                    "connectTimeoutMS": 30000
+                }
+            }
+        }
+    }
+}
